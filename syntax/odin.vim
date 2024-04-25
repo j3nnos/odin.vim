@@ -99,97 +99,97 @@ syntax match odinCommentNote "@\<\w\+\>" contained display
 syntax region odinLineComment start=/\/\// end=/$/  contains=odinCommentNote, odinTodo, odinNote, odinXXX, odinFixMe, odinNoCheckin, odinHack
 syntax region odinBlockComment start=/\v\/\*/ end=/\v\*\// contains=odinBlockComment, odinCommentNote, odinTodo, odinNote, odinXXX, odinFixMe, odinNoCheckin, odinHack
 
-highlight link odinUsing Keyword
-highlight link odinTransmute Keyword
-highlight link odinCast Keyword
-highlight link odinDistinct Keyword
-highlight link odinOpaque Keyword
-highlight link odinReturn Keyword
-highlight link odinSwitch Keyword
-highlight link odinCase Keyword
-highlight link odinProc Keyword
-highlight link odinIn Keyword
-highlight link odinNotIn Keyword
-highlight link odinContinue Keyword
-highlight link odinBreak Keyword
-highlight link odinSizeOf Keyword
-highlight link odinOffsetOf Keyword
-highlight link odinTypeOf Keyword
-highlight link odinTypeInfoOf Keyword
-highlight link odinTypeIdOf Keyword
-highlight link odinAlignOf Keyword
-highlight link odinPackage Keyword
-highlight link odinOrReturn Keyword
-highlight link odinOrElse Keyword
-highlight link odinWhere Keyword
+highlight def link odinUsing Keyword
+highlight def link odinTransmute Keyword
+highlight def link odinCast Keyword
+highlight def link odinDistinct Keyword
+highlight def link odinOpaque Keyword
+highlight def link odinReturn Keyword
+highlight def link odinSwitch Keyword
+highlight def link odinCase Keyword
+highlight def link odinProc Keyword
+highlight def link odinIn Keyword
+highlight def link odinNotIn Keyword
+highlight def link odinContinue Keyword
+highlight def link odinBreak Keyword
+highlight def link odinSizeOf Keyword
+highlight def link odinOffsetOf Keyword
+highlight def link odinTypeOf Keyword
+highlight def link odinTypeInfoOf Keyword
+highlight def link odinTypeIdOf Keyword
+highlight def link odinAlignOf Keyword
+highlight def link odinPackage Keyword
+highlight def link odinOrReturn Keyword
+highlight def link odinOrElse Keyword
+highlight def link odinWhere Keyword
 
-highlight link odinInline Keyword
-highlight link odinNoInline Keyword
+highlight def link odinInline Keyword
+highlight def link odinNoInline Keyword
 
-highlight link odinImport Keyword
-highlight link odinExport Keyword
-highlight link odinForeign Keyword
-highlight link odinNoinit Keyword
-highlight link odinDo Keyword
-highlight link odinDefer Keyword
+highlight def link odinImport Keyword
+highlight def link odinExport Keyword
+highlight def link odinForeign Keyword
+highlight def link odinNoinit Keyword
+highlight def link odinDo Keyword
+highlight def link odinDefer Keyword
 
-highlight link odinDynamic Operator
-highlight link odinMap Operator
-highlight link odinRange Operator
-highlight link odinHalfRange Operator
-highlight link odinAssign Operator
-highlight link odinAddressOf Operator
-highlight link odinDeref Operator
+highlight def link odinDynamic Operator
+highlight def link odinMap Operator
+highlight def link odinRange Operator
+highlight def link odinHalfRange Operator
+highlight def link odinAssign Operator
+highlight def link odinAddressOf Operator
+highlight def link odinDeref Operator
 
-highlight link odinDeclaration Operator
-highlight link odinDeclAssign Operator
-highlight link odinAssign Operator
-highlight link odinTernaryQMark Operator
-highlight link odinReturnOp Operator
+highlight def link odinDeclaration Operator
+highlight def link odinDeclAssign Operator
+highlight def link odinAssign Operator
+highlight def link odinTernaryQMark Operator
+highlight def link odinReturnOp Operator
 
-highlight link odinString String
-highlight link odinRawString String
-highlight link odinChar String
+highlight def link odinString String
+highlight def link odinRawString String
+highlight def link odinChar String
 
-highlight link odinStruct Structure
-highlight link odinEnum Structure
-highlight link odinUnion Structure
-highlight link odinBitField Structure
-highlight link odinBitSet Structure
+highlight def link odinStruct Structure
+highlight def link odinEnum Structure
+highlight def link odinUnion Structure
+highlight def link odinBitField Structure
+highlight def link odinBitSet Structure
 
 " :FunctionHighlighting
-highlight link odinFunctionDecl Function
-highlight link odinFunctionCall Function
+highlight def link odinFunctionDecl Function
+highlight def link odinFunctionCall Function
 
-highlight link odinMacro Macro
-highlight link odinIf Conditional
-highlight link odinWhen Conditional
-highlight link odinElse Conditional
-highlight link odinFor Repeat
+highlight def link odinMacro Macro
+highlight def link odinIf Conditional
+highlight def link odinWhen Conditional
+highlight def link odinElse Conditional
+highlight def link odinFor Repeat
 
-highlight link odinLineComment Comment
-highlight link odinBlockComment Comment
-highlight link odinCommentNote Todo
+highlight def link odinLineComment Comment
+highlight def link odinBlockComment Comment
+highlight def link odinCommentNote Todo
 
-highlight link odinTodo Todo
-highlight link odinNote Todo
-highlight link odinXXX Todo
-highlight link odinFixMe Todo
-highlight link odinNoCheckin Todo
-highlight link odinHack Todo
+highlight def link odinTodo Todo
+highlight def link odinNote Todo
+highlight def link odinXXX Todo
+highlight def link odinFixMe Todo
+highlight def link odinNoCheckin Todo
+highlight def link odinHack Todo
 
-highlight link odinTemplate Constant
+highlight def link odinTemplate Constant
 
-highlight link odinTagNote Identifier
-highlight link odinDataType Type
-highlight link odinBool Boolean
-highlight link odinConstant Constant
-highlight link odinNull Type
-highlight link odinInteger Number
-highlight link odinFloat Float
-highlight link odinHex Number
-highlight link odinOct Number
-highlight link odinBin Number
-highlight link odinDoz Number
+highlight def link odinTagNote Identifier
+highlight def link odinDataType Type
+highlight def link odinBool Boolean
+highlight def link odinConstant Constant
+highlight def link odinNull Type
+highlight def link odinInteger Number
+highlight def link odinFloat Float
+highlight def link odinHex Number
+highlight def link odinOct Number
+highlight def link odinBin Number
+highlight def link odinDoz Number
 
 let b:current_syntax = "odin"
